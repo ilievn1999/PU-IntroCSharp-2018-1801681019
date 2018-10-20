@@ -15,7 +15,7 @@ namespace _4thDigit
             }
             else
             {
-                int fourthDigit = number % 1000000 % 100000 % 10000 / 1000;
+                int fourthDigit = number % 10000 / 1000;
 
                 Console.WriteLine($"The 4th digit of {number} is {fourthDigit}");
             }

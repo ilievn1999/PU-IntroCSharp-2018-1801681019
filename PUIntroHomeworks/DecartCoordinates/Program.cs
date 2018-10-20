@@ -26,5 +26,6 @@ namespace DecartCoordinates
             double distanceBetweenTwoPoints = Math.Sqrt(Math.Pow((xB - xA), 2) + Math.Pow((yB - yA), 2));
             Console.WriteLine($"The distance between the two pints is {distanceBetweenTwoPoints}.");
         }
+
     }
 }
