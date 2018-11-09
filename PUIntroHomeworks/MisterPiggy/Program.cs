@@ -22,14 +22,14 @@ namespace MisterPiggy
             {
                 sumPiggyName1 += a;
             }
-            foreach (char b in piggyName2)
+            foreach (char a in piggyName2)
             {
-                sumPiggyName2 += b;
+                sumPiggyName2 += a;
             }
 
-            foreach (char c in piggyName3)
+            foreach (char a in piggyName3)
             {
-                sumPiggyName3 += c;
+                sumPiggyName3 += a;
             }
 
             // Finally, compare the results and display a suitable message.
